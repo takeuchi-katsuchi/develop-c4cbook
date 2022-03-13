@@ -1,0 +1,99 @@
+section.header {
+ border-bottom: 3px solid #66CCFF;
+ margin-bottom: 10px;
+}
+
+section.header input {
+ border: none;
+}
+
+.title {
+ font-weight: bold;
+ color: #66CCFF;
+ width: 100%;
+ text-align: left;
+ padding-top: 20px;
+}
+
+section.header div {
+ display: flex;
+}
+
+section.header div.menu {
+ color: blue;
+ text-align: right;
+ width: 100%;
+ padding-left: 25px;
+ padding-top: 18px;
+ height: 58px;
+}
+
+section.header div.menu div, img {
+ width: 40px;
+}
+
+/* Topmenu部分 */
+div.menu  li {
+ float: left;
+ position: relative;
+}
+
+/* プルダウンメニュー関連 */
+section.header div.menu  ul.pulldown {
+ list-style-type: none;
+}
+
+section.header div.menu ul.pulldown ul.submenu {
+    display: none;
+    position: fixed;
+    margin-top: 30px;
+    background: #b9ffff;
+    border: solid 1px #000000;
+    z-index: 1;
+    width: 360px;
+    padding: 0px 10px;
+    transform: translate(-77%, -50%);
+}
+
+section.header input {
+ border: none;
+ background-color: #b9ffff;
+}
+
+section.header div.menu  ul.pulldown li.slidebtn ul li, section.header div.menu  ul.pulldown li.drowerbtn ul li {
+ list-style-type: none;
+}
+
+section.header div.menu  ul.pulldown li a {
+ padding: 5px 0;
+ color: #000;
+}
+
+section.header div.menu ul.pulldown li.news, section.header div.menu ul.pulldown li.news {
+ left: 0;
+}
+
+section.header div.menu ul.pulldown li.news, section.header div.menu ul.pulldown li.menu {
+    display: block;
+    color: #000;
+    background-color: #b9ffff;
+    text-align: right;
+    float: right;
+    width:30vw;
+}
+
+section.header div.menu div {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+section.header div.menu  ul.pulldown ul.drowermenu {
+ display: none;
+}
+
+@media screen and (max-width: 480px) {
+ section.header div.menu  ul.pulldown ul.drowermenu {
+  display: block;
+ }
+}

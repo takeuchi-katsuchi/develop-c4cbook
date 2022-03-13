@@ -1,0 +1,118 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+div.book_box {
+ display: flex;
+ margin-bottom: 15px;
+}
+
+div.book_img_area {
+ height: 200px;
+ width: 150px;
+ padding-left: 20px;
+}
+
+div.book_img_area img {
+ width: 100%;
+}
+
+.fa-book-open, .fa-book {
+ color: blue;
+}
+
+.noread {
+ color: #9de5ff;
+ visibility: #FFEEFF;
+}
+
+.fa-heart {
+ color: red;
+}
+
+.noheart {
+ color: pink;
+ visibility: #FFEEFF;
+}
+
+div.book_info {
+ width: 210px;
+ height: auto;
+ padding-left: 30px;
+}
+
+div.name {
+ text-shadow: 0 0 2px white;
+ color: #333;
+ font-size: 19px;
+ font-weight: bold;
+ margin-bottom: 5px;
+}
+
+div.author {
+ font-size: 11px;
+ margin-bottom: 5px;
+}
+
+.icon_img_wrap {
+ display: flex;
+}
+
+.icon_img_area {
+ width: 40px;
+}
+
+.icon_img_area.book-count {
+ padding-top: 5px;
+ color: #555555;
+}
+
+.icon_img_area.heart-count {
+ padding-top: 5px;
+ color: #555555;
+}
+
+div.rent_able {
+ margin-top: 4px;
+ margin-bottom: 4px;
+ padding: 0.1em;
+ padding-left: 0.4em;
+ width: 130px;
+ border-radius: 5%;
+ font-size: 11px;
+ color: white;
+ background-color: blue;
+}
+
+div.rent_disable {
+ margin-top: 4px;
+ margin-bottom: 4px;
+ padding: 0.1em;
+ padding-left: 0.4em;
+ width: 130px;
+ border-radius: 5%;
+ font-size: 11px;
+ color: white;
+ background-color: orange;
+}
+
+ul.tag {
+ height: 60px;
+ margin-bottom: 5px;
+}
+
+ul.tag li {
+ display: inline-block;
+ text-align: center;
+ font-size: 10px;
+ background: #dbebf8;
+ vertical-align: middle;
+ margin: 4px 0;
+ padding: 5px;
+ border-radius: 10px 0px 0px 10px;
+}
+
+i.fa-heart {
+ cursor: pointer;
+}
